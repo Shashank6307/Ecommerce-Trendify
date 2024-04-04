@@ -28,5 +28,3 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 About the Developer:
 I am a passionate frontend developer with expertise in HTML, CSS, JavaScript, React.js, and SCSS. This project showcases my skills in building scalable and user-friendly E-commerce solutions.
-
-Feel free to customize this description to fit your project's specific details and add any additional information you find relevant.

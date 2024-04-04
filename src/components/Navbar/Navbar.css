@@ -1,0 +1,92 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px;
+  box-shadow: 0 1px 3px -2px black;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-logo img {
+  width: 4rem;
+  height: 4rem;
+}
+.nav-logo p {
+  color: rgb(72, 72, 72);
+  font-size: 38px;
+  font-weight: 600;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  color: rgb(116, 116, 116);
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.nav-menu li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+}
+.nav-menu li hr {
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  background: rgb(12, 12, 12);
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+}
+.right button {
+  width: 157px;
+  height: 48px;
+  outline: none;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 75px;
+  background-color: white;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+}
+.right button:active {
+  background: rgb(179, 182, 182);
+}
+.icon {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+  border: 2px solid red;
+}
+.count {
+  height: 22px;
+  width: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -35px;
+  margin-left: -62px;
+  border-radius: 11px;
+  font-size: 14px;
+  background-color: red;
+  color: white;
+}
+.link {
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+}
